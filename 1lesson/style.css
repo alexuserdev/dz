@@ -7,7 +7,7 @@
 .logo {
     width: 60px;
     height: 60px;
-    background-image: url(/img/unnamed.png);
+    background-image: url(https://alexuserdev.github.io/dz/1lesson/img/unnamed.png);
     background-size: contain;
     float: left;
 
@@ -16,7 +16,7 @@
 .pika {
     width: 51px;
     height: 45px;
-    background-image: url(/img/pic.jpeg);
+    background-image: url(https://alexuserdev.github.io/dz/1lesson/img/pic.jpeg);
     background-size: contain;
     float: right;
     margin-top: 8px;
