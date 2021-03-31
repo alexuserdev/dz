@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.ttf');
+}
+
+* {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
 .header {
     width: 600px;
     height: 60px;
@@ -7,7 +17,7 @@
 .logo {
     width: 60px;
     height: 60px;
-    background-image: url(https://alexuserdev.github.io/dz/1lesson/img/unnamed.png);
+    background-image: url("../img/unnamed.png");
     background-size: contain;
     float: left;
 
@@ -16,7 +26,7 @@
 .pika {
     width: 51px;
     height: 45px;
-    background-image: url(https://alexuserdev.github.io/dz/1lesson/img/pic.jpeg);
+    background-image: url("../img/pic.jpeg");
     background-size: contain;
     float: right;
     margin-top: 8px;
@@ -33,4 +43,110 @@
     margin-top: 21px;
     margin-left: 22px;
     position: absolute;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('../img/bg.jpg');
+    width: 650px;
+    height: 200px;
+    background-size: 650px 300px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.title {
+    margin-bottom: -7px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.text {
+    color: white;
+}
+
+.down {
+    margin-top: 9px;
+    border: 2px solid;
+    border-color:#ffff;
+    background-color: rgba(205, 214, 219, 0);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    width: 140px;
+    height: 40px;
+    font-size: 13px;
+}
+
+.down:hover { background: rgba(255,255,255,.2); }
+
+.content {
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.jen {
+    width: 340px;
+    margin-right: 15px;     
+}
+
+.sen {
+    width: 340px;
+    margin-left: 15px;
+}
+
+.hrefs {
+    margin: auto;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-right: 274px;
+}
+
+.bottom {
+    width: 600px;
+    height: 325px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bt {
+    width: 72px;
+}
+
+.bottom p{
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+.line{
+    width: 1px;
+    background-color: black;
+    height: 106%;
+    float: left;
+}
+
+.mark{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
 }
