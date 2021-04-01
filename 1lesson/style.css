@@ -87,13 +87,13 @@
 
 .content {
     width: 600px;
-    height: 200px;
+    height: 255px;
     margin: auto;
     display: flex;
     flex-flow: nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 6px;
 }
 
 .jen {
